@@ -10,3 +10,5 @@
 *- игнорируются в корневом разделе файлы: override.tf, override.tf.json и заканчивающиеся на *_override.tf или *_override.tf.json *
 *- не игнорируется файл example_override.tf - не игнорируюися все файлы содержащие в названии tfplan (tfplan) *
 *- игнорируюися конфигурационные файлы .terraformrc и terraform.rc*
+
+## Ветки
