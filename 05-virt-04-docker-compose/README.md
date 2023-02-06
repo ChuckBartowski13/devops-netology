@@ -506,7 +506,7 @@ IP не совпадает, т.к. машины создавал в разное
 </p>
 
 <p align="center">
-  <img width="1800" height="800" src="./assets/grafana2.png">
+  <img width="1800" height="800" src="./assets/garafana2.png">
 </p>
 
 ## Задача 5 (*)
