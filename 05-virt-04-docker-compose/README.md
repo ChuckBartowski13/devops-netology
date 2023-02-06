@@ -499,12 +499,14 @@ b4f19fc34861   prom/alertmanager:v0.20.0                   "/bin/alertmanager -�
 
 ## Ответ
 
+IP не совпадает, т.к. машины создавал в разное время
+
 <p align="center">
   <img width="1200" height="600" src="./assets/grafana.png">
 </p>
 
 <p align="center">
-  <img width="1200" height="600" src="./assets/grafana2.png">
+  <img width="1800" height="800" src="./assets/grafana2.png">
 </p>
 
 ## Задача 5 (*)
