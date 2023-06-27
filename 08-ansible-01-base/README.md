@@ -72,6 +72,39 @@ c495925a45fd   centos            "/bin/bash"              30 minutes ago   Up 30
 ```
 
 4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.
+```
+[admin@ALMA-MAIN playbook]$ sudo ansible-playbook site.yml -i inventory/prod.yml
+[sudo] password for admin: 
+
+PLAY [Print os facts] ********************************************************************
+
+TASK [Gathering Facts] *******************************************************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [Print OS] **************************************************************************
+ok: [centos] => {
+    "msg": "CentOS"
+}
+ok: [ubuntu] => {
+    "msg": "Ubuntu"
+}
+
+TASK [Print fact] ************************************************************************
+ok: [centos] => {
+    "msg": "el"
+}
+ok: [ubuntu] => {
+    "msg": "deb"
+}
+
+PLAY RECAP *******************************************************************************
+centos                     : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+ubuntu                     : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[admin@ALMA-MAIN playbook]$
+```
+
 5. Добавьте факты в `group_vars` каждой из групп хостов так, чтобы для `some_fact` получились значения: для `deb` — `deb default fact`, для `el` — `el default fact`.
 
 ```
