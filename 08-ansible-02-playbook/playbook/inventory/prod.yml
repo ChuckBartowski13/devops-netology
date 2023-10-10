@@ -1,0 +1,5 @@
+---
+vector:
+  hosts:
+    centos-v:
+      ansible_connection: docker
