@@ -10,7 +10,7 @@
 + репозиторий для Clickhouse - c с приложенным у меня не заработало
   [Clickhouse](https://github.com/ChuckBartowski13/clickhouse-role)  
 2.В данных репозиториях размещены соответствующие роли.  
-3.Playbook [site.yml](https://github.com/ChuckBartowski13/devops-netology/08-ansible-04-role/playbook/site.yml) настроен на использование roles.  
-4.Для загрузки ролей в Playbook используется [requirements.yml](https://github.com/ChuckBartowski13/devops-netology/08-ansible-04-role/playbook/requirements.yml).
+3.Playbook [site.yml](https://github.com/ChuckBartowski13/devops-netology/blob/main/08-ansible-04-role/playbook/site.yml) настроен на использование roles.  
+4.Для загрузки ролей в Playbook используется [requirements.yml](https://github.com/ChuckBartowski13/devops-netology/blob/main/08-ansible-04-role/playbook/requirements.yml).
 
 
