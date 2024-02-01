@@ -147,7 +147,7 @@ ret@test-netology:~/Downloads$
 
 Исправленный
 
-**[pom.xml](./src/fail.py)**
+**[fail.py](./src/fail.py)**
 
 ## Знакомство с Nexus
 
